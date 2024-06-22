@@ -1,0 +1,191 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+    background-color: hsl(225, 100%, 94%);
+    background-image: url(images/pattern-background-desktop.svg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: "Red Hat Display", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.attribution, .summary, .plancard, .buttons {
+    font-size: 11px;
+    margin: 3%;
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 4%;
+}
+
+p {
+    font-weight: 500;
+    color: hsl(200, 1%, 46%);
+    text-size-adjust: auto;
+    line-height: 24px;
+    font-size: 16px;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.maincard {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+    width: 450px;
+    margin-top: 6rem;
+}
+
+.dancing {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.plancard {
+    background-color: hsl(225, 100%, 98%);
+    padding: 4% 18% 4% 18%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    line-height: 2px;
+    margin: 0;
+}
+
+.plan {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: -38px;
+}
+
+.type {
+    margin: 0;
+    padding: 0;
+    font-weight: 900;
+    font-size: 15px;
+    color: black;
+}
+
+.price {
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    font-size: 15px;
+    color: hsl(200, 1%, 46%);
+}
+
+#icon {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 2px;
+    left: -55px;
+}
+
+.plancard a {
+    font-size: 14px;
+    font-weight: 900;
+    text-decoration: underline;
+    color: hsl(245, 75%, 52%);
+    justify-self: end;
+    align-self: center;
+    position: relative;
+    left: 40px;
+}
+
+.plancard a:hover {
+    color: hsl(263, 59%, 61%);
+    text-decoration: none;
+}
+
+.b1 {
+    background-color: hsl(245, 75%, 52%);
+    padding: 12px 100px;
+    border: none;
+    border-radius: 10px;
+    margin: 5% 0;
+    font-size: 14px;
+    font-weight: 900;
+    cursor: pointer;
+    color: white;
+}
+
+.b1:hover {
+    background-color: hsl(241, 59%, 61%);
+}
+
+.b2 {
+    margin: 5% 0 10% 0;
+}
+
+.b2 a {
+    font-size: 14px;
+    font-weight: 900;
+    color: hsl(200, 1%, 46%);
+}
+
+.b2 a:hover {
+    color: black;
+}
